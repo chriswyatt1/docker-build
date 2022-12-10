@@ -5,6 +5,8 @@
 
 2. Then edit your conda.yml and or Dockerfile to add the programs you needs.
 
+2i. Make sure to keep the procps line, as this is needed for nf-tower
+
 3. Then build the container (don't forget the `.`):
 
 `docker build -t my-image .`
