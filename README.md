@@ -14,3 +14,11 @@
 `docker run -it my-image bash`
 
 5. Push your working repo to dockerhub
+
+6. `docker login`
+
+7. Tag it, e.g.:
+`docker tag my-image chriswyatt/ncbi_download`
+
+8. Push it:
+`docker push chriswyatt/ncbi_download`
