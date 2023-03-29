@@ -1,0 +1,17 @@
+#   conda env create -f env.yml
+name: ncbi_datasets
+channels:
+  - conda-forge
+  - bioconda
+  - defaults
+dependencies:
+  - conda
+  - rb-bio
+  - python=3.7
+  - pip
+  - zip
+  - tar
+  - unzip
+  - cafe
+
+  
