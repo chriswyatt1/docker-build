@@ -16,6 +16,8 @@ dependencies:
   - r-writexls
   - r-plyr
   - r-gdata
+  - r-ggplot2
+  - r-ggstar
   - r-pheatmap
   - r-ashr
   - perl-cgi
