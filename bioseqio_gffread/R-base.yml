@@ -22,3 +22,4 @@ dependencies:
   - perl-dbd-sqlite
   - perl-db-file
   - perl-uri
+  - gffread

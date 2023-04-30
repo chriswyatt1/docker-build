@@ -19,6 +19,8 @@ or (with directory mounted):
 
 `docker run --volume $PWD:$PWD -it my-image bash`
 
+<Make sure to `exit` the docker container>
+
 5. Push your working repo to dockerhub
 
 6. `docker login`
