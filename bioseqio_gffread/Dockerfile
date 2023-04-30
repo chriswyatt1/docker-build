@@ -18,8 +18,3 @@ RUN apt-get update \
 RUN micromamba install -y -n base -f R-base_micro.yml && \
     micromamba clean --all --yes
 
-RUN echo "BIO PERL INSTALLATION"
-RUN \wget -O - https://install.perlbrew.pl | bash
-ENV PATH=${PATH}:/root/perl5/perlbrew/bin/
-RUN perlbrew install-cpanm
-RUN cpanm --force Bio::Seq Bio::SeqIO
