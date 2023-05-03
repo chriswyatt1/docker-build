@@ -18,5 +18,9 @@ dependencies:
   - r-ape
   - r-data.table
   - newick_utils
+  - perl-cgi
+  - perl-dbd-sqlite
+  - perl-db-file
+  - perl-uri
 
   
