@@ -10,5 +10,5 @@ dependencies:
   - gffread
   - pip
   - zip
-  - ncbi-datasets-cli=14.6.1
+  - ncbi-datasets-cli=15.34.0
   - unzip
