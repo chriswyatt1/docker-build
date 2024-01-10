@@ -1,0 +1,1 @@
+This container was built to try to get around the arm64 version, given the container normally used is : davidemms/orthofinder:2.5.2. There is no arm64 version online, so tried to make a conda env in arm64 and list orthofinder from that. 
